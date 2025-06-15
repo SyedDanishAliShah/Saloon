@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Saloon</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="address">Address</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="saloon_name">Saloon Name</string>
+    <string name="title_activity_maps">Google Map</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="create_account">Create account</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/bg_views.xml" value="0.2045" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/btn_bg.xml" value="0.193" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1925" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/ic_baseline_directions_bike_24.xml" value="0.1925" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/ic_baseline_directions_run_24.xml" value="0.1925" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/ic_baseline_flag_24.xml" value="0.177" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1925" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/ic_date_picker_24.xml" value="0.1925" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1925" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/ic_logout.xml" value="0.21" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/ic_makeup_logo.xml" value="0.1925" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/ic_person_stand.xml" value="0.1925" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/drawable/login_bg.xml" value="0.1925" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_admin.xml" value="0.28177083333333336" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_admin_signup.xml" value="0.2774358974358974" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_client_order.xml" value="0.29375" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_history.xml" value="0.29375" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_login_admin.xml" value="0.28177083333333336" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_login_user.xml" value="0.28177083333333336" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_maps.xml" value="0.28177083333333336" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_place_order.xml" value="0.29375" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_splash_screen.xml" value="0.29375" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_user.xml" value="0.28177083333333336" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/activity_user_signup.xml" value="0.2774358974358974" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/client_order_dialog.xml" value="0.29375" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/client_order_dialog_recycler_item.xml" value="0.29375" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/client_order_recycler_item.xml" value="0.29375" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/history_recycler_item.xml" value="0.28923076923076924" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/rating_dialog.xml" value="0.29375" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/layout/spinner_dropdown_item.xml" value="0.29375" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/menu/login_menu.xml" value="0.29375" />
+        <entry key="..\:/Android Apps Development/Java Apps/Internship Tutorials/App Projects/Saloon App/Saloon/app/src/main/res/menu/menu.xml" value="0.29375" />
+        <entry key="..\:/Client work/saloon Iqra/Saloon/app/src/main/res/layout/activity_client_order.xml" value="0.17916666666666667" />
+        <entry key="..\:/Client work/saloon Iqra/Saloon/app/src/main/res/layout/activity_login_user.xml" value="0.17916666666666667" />
+        <entry key="..\:/Client work/saloon Iqra/Saloon/app/src/main/res/layout/activity_place_order.xml" value="0.17916666666666667" />
+        <entry key="..\:/Client work/saloon Iqra/Saloon/app/src/main/res/layout/activity_splash_screen.xml" value="0.17916666666666667" />
+        <entry key="..\:/Saloon/app/src/main/res/drawable/ic_date_picker_24.xml" value="0.1945" />
+        <entry key="..\:/Saloon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1945" />
+        <entry key="..\:/Saloon/app/src/main/res/layout/activity_client_order.xml" value="0.20416666666666666" />
+        <entry key="..\:/Saloon/app/src/main/res/layout/activity_login_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Saloon/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Saloon/app/src/main/res/layout/activity_place_order.xml" value="0.20416666666666666" />
+        <entry key="..\:/Saloon/app/src/main/res/layout/client_order_dialog.xml" value="0.17074275362318841" />
+        <entry key="..\:/Saloon/app/src/main/res/layout/client_order_recycler_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Saloon/app/src/main/res/layout/spinner_dropdown_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Saloon/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1945" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

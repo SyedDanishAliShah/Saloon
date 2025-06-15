@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".Activities.SignupUserActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:text="@string/create_account"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/userName"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="16dp"
+            android:hint="@string/name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:textColor="#2E2D2D" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/userEmail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:hint="@string/email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userEmailEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="#2E2D2D" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/userPassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:hint="@string/password"
+            app:endIconMode="password_toggle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userEmail">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userPasswordEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="#2E2D2D" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/gender"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginStart="16dp"-->
+        <!--        android:layout_marginTop="50dp"-->
+        <!--        android:layout_marginEnd="28dp"-->
+        <!--        android:text="Gender"-->
+        <!--        android:textSize="16sp"-->
+        <!--        app:layout_constraintEnd_toStartOf="@+id/radioGroup"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/userPassword" />-->
+
+        <!--    <RadioGroup-->
+        <!--        android:id="@+id/radioGroup"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="39dp"-->
+        <!--        android:layout_marginEnd="95dp"-->
+        <!--        android:orientation="horizontal"-->
+        <!--        android:paddingStart="30dp"-->
+        <!--        android:paddingEnd="30dp"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/userPassword">-->
+
+        <!--        <RadioButton-->
+        <!--            android:id="@+id/male"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginEnd="20dp"-->
+        <!--            android:text="Male"-->
+        <!--            android:checked="true"/>-->
+
+        <!--        <RadioButton-->
+        <!--            android:id="@+id/female"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Female" />-->
+
+        <!--    </RadioGroup>-->
+
+        <!--    <co.ceryle.radiorealbutton.RadioRealButtonGroup-->
+        <!--        android:id="@+id/radioGroup"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        app:layout_constraintBottom_toTopOf="@+id/btnUserSignup"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:rrbg_animateDrawables_enter="overshoot"-->
+        <!--        app:rrbg_animateTexts_enter="overshoot"-->
+        <!--        app:rrbg_dividerColor="@color/black"-->
+        <!--        app:rrbg_dividerSize="1dp"-->
+        <!--        app:rrbg_radius="10dp"-->
+        <!--        app:rrbg_selectorColor="@color/purple_700"-->
+        <!--        app:rrbg_selectorSize="6dp">-->
+
+        <!--        <co.ceryle.radiorealbutton.RadioRealButton-->
+        <!--            android:id="@+id/male"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            app:rrb_drawable="@mipmap/ic_launcher"-->
+        <!--            app:rrb_drawableHeight="36dp"-->
+        <!--            app:rrb_drawablePadding="8dp"-->
+        <!--            app:rrb_drawableWidth="36dp"-->
+        <!--            app:rrb_ripple="true"-->
+        <!--            app:rrb_rippleColor="@color/black"-->
+        <!--            app:rrb_text="Button 1"-->
+        <!--            app:rrb_textColor="@color/black" />-->
+
+        <!--        <co.ceryle.radiorealbutton.RadioRealButton-->
+        <!--            android:id="@+id/female"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            app:rrb_drawable="@mipmap/ic_launcher"-->
+        <!--            app:rrb_drawableGravity="right"-->
+        <!--            app:rrb_drawableHeight="36dp"-->
+        <!--            app:rrb_drawablePadding="8dp"-->
+        <!--            app:rrb_drawableWidth="36dp"-->
+        <!--            app:rrb_ripple="true"-->
+        <!--            app:rrb_rippleColor="@color/black"-->
+        <!--            app:rrb_text="Button 2"-->
+        <!--            app:rrb_textColor="@color/black" />-->
+        <!--    </co.ceryle.radiorealbutton.RadioRealButtonGroup>-->
+
+        <xyz.teamgravity.imageradiobutton.GravityRadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/btnUserSignup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userPassword">
+
+            <xyz.teamgravity.imageradiobutton.GravityImageRadioButton
+                android:id="@+id/male"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                app:girbImage="@drawable/ic_male"
+                app:girbPressedTextColor="@color/white"
+                app:girbText="Male"
+                app:girbUnpressedTextColor="?attr/colorPrimary" />
+
+            <xyz.teamgravity.imageradiobutton.GravityImageRadioButton
+                android:id="@+id/female"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                app:girbImage="@drawable/ic_female"
+                app:girbPressedTextColor="@color/white"
+                app:girbText="Female"
+                app:girbUnpressedTextColor="?attr/colorPrimary" />
+
+        </xyz.teamgravity.imageradiobutton.GravityRadioGroup>
+
+        <Button
+            android:id="@+id/btnUserSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="68dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/sign_up"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/userLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnUserSignup" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
